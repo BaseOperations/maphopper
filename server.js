@@ -127,4 +127,4 @@ proxyService.use('/api/1/matrix', proxy(GH_BASE, {
 
 log.info("Maphopper is running...")
 
-exports.default = proxyService;
+module.exports = proxyService;
