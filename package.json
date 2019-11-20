@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+	"package":"zip -r maphopper.zip . -x documentations/* .git/*"
   },
   "author": "",
   "license": "ISC",
