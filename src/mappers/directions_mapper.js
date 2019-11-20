@@ -618,17 +618,17 @@ function getRouteOptions (path, accessKey) {
     coordinates: path.snapped_waypoints.coordinates,
     language: locale,
     bearings: ';',
-    continueStraight: true,
-    roundaboutExits: true,
+    continue_straight: true,
+    roundabout_exits: true,
     geometries: geometries,
     overview: 'full',
     steps: true,
     annotations: '',
-    voiceInstructions: true,
-    bannerInstructions: true,
-    voiceUnits: getUnitSystem(),
-    accessToken: token,
-    requestUuid: UUID
+    voice_instructions: true,
+    banner_instructions: true,
+    voice_units: getUnitSystem(),
+    access_token: token,
+    uuid: UUID
   }
   return routeOptions
 }
